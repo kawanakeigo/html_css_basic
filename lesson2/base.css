@@ -1,0 +1,40 @@
+.container {
+    position: absolute;      /* 絶対位置指定 */
+    top: 50%;                 /* 縦方向の中央に配置 */
+    left: 50%;                /* 横方向の中央に配置 */
+    transform: translate(-50%, -50%); /* 親要素の中心を画面の中心に調整 */
+    padding: 20px; /* 枠線を追加 */
+    display: flex;
+    justify-content: center; /* 横方向中央寄せ */
+    align-items: center;     /* 縦方向中央寄せ */
+    height: 90vh;   /* 画面全体を使う */
+    width:90vh;
+    border: 2px solid black;
+　　
+}
+.red-box {
+        background-color: red;
+    color: red;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;  /* 上端に配置 */
+    right: 20%; /* 右端に配置 */
+}
+
+.blue-box{
+background-color: blue;
+    color: blue;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top:35%;
+    left: 0%;  /* 左端を親の中央に配置 */
+    
+}
